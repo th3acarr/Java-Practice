@@ -1,0 +1,66 @@
+* {
+  magin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: #2c2c2c;
+  background-color: #fefefe;
+  padding: 20px;
+}
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: #e5f7ee;
+}
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+.hero p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cta {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #4caf50;
+  color: white;
+  text-decoration: none;
+  border-decoration: none;
+  border-radius: 5px;
+}
+.projects, .about, .contact {
+  max-width: 800px;
+  margin: 60px auto;
+ padding: 0 20px;
+}
+.projects h2, .about h2, .contact h2 {
+  margin-bottom: 20px;
+}
+.project-card {
+  background: #f4f4f4;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-left: 4px solid #4caf50;
+}
+.project-card h3 {
+  margin-bottom: 10px;
+}
+footer a {
+  color: 4caf50;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+@media (max-width: 600px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+}
